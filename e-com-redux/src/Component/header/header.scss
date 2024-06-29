@@ -21,3 +21,32 @@
     height: 45px;
 
 }
+
+.search-bar {
+    display: flex;
+    align-items: center;
+
+    input {
+        width: 400px;
+        height: 40px;
+        border: none;
+        outline: none;
+        padding: 0 10px;
+        font-size: 16px;
+        border-radius: 5px 0 0 5px;
+    }
+
+    button {
+        width: 100px;
+        height: 40px;
+        border: none;
+        outline: none;
+        background-color: $primary-color;
+        color: $font-primary;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 0 5px 5px 0;
+    }
+}
+
+
